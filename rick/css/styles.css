@@ -1,0 +1,43 @@
+.container-fluid {
+  background-image: url("https://m.media-amazon.com/images/S/pv-target-images/1ce301e50b6174bdec24614ee188648c6bbe049380552587d509ec5f9e8ebcac.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+}
+
+.card:hover .estadopersonaje,
+.card:hover .generopersonaje {
+  display: none;
+}
+
+.card:hover .col-md-4,
+.card:hover .col-md-8 {
+  width: 100%;
+}
+
+.card:hover .col-md-4 img {
+  width: 100%;
+  max-height: 300px;
+}
+
+.card .col-md-4 {
+  align-content: center;
+}
+
+.tipodeespecie, .estadopersonaje, .generopersonaje {
+  font-size: 12px;
+}
+
+.pagination {
+  justify-content: center;
+}

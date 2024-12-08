@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #FFFFFF;
+}
+
+#lista-estudiantes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #FFC5C5;
+  border: 1px solid #FFB6C1;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#lista-estudiantes li {
+  padding: 10px;
+  border-bottom: 1px solid #FFB6C1;
+}
+
+#lista-estudiantes li:last-child {
+  border-bottom: none;
+}
+
+#lista-estudiantes li ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #FFB6C1;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#lista-estudiantes li ul li {
+  padding: 5px;
+  border-bottom: 1px solid #FFB6C1;
+}
+
+#lista-estudiantes li ul li:last-child {
+  border-bottom: none;
+}
+
+h1 {
+  text-align: center;
+  color: #FF69B4;
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-bottom: 1px solid #FFB6C1;
+}
